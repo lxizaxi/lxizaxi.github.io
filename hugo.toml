@@ -1,0 +1,43 @@
+baseURL = 'http://shota-aws.github.io/'
+languageCode = 'ja'
+defaultContentLanguage = 'ja'
+title = 'shota-aws'
+theme = 'PaperMod'
+
+[author]
+  name = "shota-aws"
+  bio = "just developer."
+  job = "engineer"
+  location = "Nagoya"
+
+[params.profileMode]
+enabled = true
+title = "shota-awsのスペース"
+subtitle = '学びや気づきを整理します'
+imageUrl =  "icon.jpeg"
+
+[params]
+  sidebarBehavior = 2
+  thumbnailImage = true
+  dateFormat = "2006-01-02"
+  thumbnailImagePosition = "left"
+  autoThumbnailImage = true
+  coverImage = "images/cover.jpg"
+  imageGallery = true
+  hierarchicalCategories = true
+  syntaxHighlighter = 'highlight.js'
+  socialIcons = [
+    { name = 'github', title = 'github', url = 'https://github.com/shota-aws/' },
+    { name = 'twitter', title = 'twitter', url = 'https://twitter.com/shota_aws'}
+  ]
+
+[[menu.main]]
+  weight = 1
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
+[[menu.main]]
+  weight = 2
+  identifier = "aboutme"
+  name = "About Me"
+  url = "/aboutme"
