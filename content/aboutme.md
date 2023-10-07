@@ -8,16 +8,16 @@
 
 ### 【AWS資格】
 
-- [x] AWS Certified Cloud Practitioner（クラウドプラクティショナー）
-- [x] AWS Certified Solutions Architect - Associate (ソリューションアーキテクト-アソシエイト)
-- [x] AWS Certified SysOps Administrator – Associate（アドミニストレーター）
-- [x] AWS Certified Developer - Associate（デベロッパー）
-- [ ] AWS Certified Solutions Architect - Professional（ソリューションアーキテクト-プロフェッショナル）
-- [ ] AWS Certified DevOps Engineer - Professional（DevOps エンジニア）
-- [ ] AWS Certified Advanced Networking - Specialty （アドバンストネットワーキング）
-- [ ] AWS Certified Data Analytics – Specialty（データアナリティクス）
-- [ ] AWS Certified Database - Specialty（データベース）
-- [ ]AWS Certified Machine Learning - Specialty（機械学習）
-- [x] AWS Certified Security – Specialty（セキュリティ）
-- [ ] AWS Certified: SAP on AWS - Specialty（SAP on AWS）
+- [x] AWS Certified Cloud Practitioner
+- [x] AWS Certified Solutions Architect - Associate
+- [x] AWS Certified SysOps Administrator – Associate
+- [x] AWS Certified Developer - Associate
+- [ ] AWS Certified Solutions Architect - Professional
+- [ ] AWS Certified DevOps Engineer - Professional
+- [ ] AWS Certified Advanced Networking - Specialty
+- [ ] AWS Certified Data Analytics – Specialty
+- [ ] AWS Certified Database - Specialty
+- [ ] AWS Certified Machine Learning - Specialty
+- [x] AWS Certified Security – Specialty
+- [ ] AWS Certified: SAP on AWS - Specialty
 
