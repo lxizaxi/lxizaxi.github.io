@@ -1,4 +1,4 @@
-# 【about `shota-aws`】
+### 【about `shota-aws`】
 
 - 名古屋でWebアプリ開発してます。
 - `AWS` や `Terraform` みたいなインフラ系技術が好きです。

@@ -14,7 +14,7 @@ theme = 'PaperMod'
 enabled = true
 title = "shota-awsのスペース"
 subtitle = '学びや気づきを整理します'
-imageUrl =  "icon.jpeg"
+imageUrl =  "icon.jpg"
 
 [params]
   sidebarBehavior = 2
