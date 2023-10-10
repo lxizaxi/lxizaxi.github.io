@@ -1,18 +1,18 @@
-baseURL = 'http://shota-aws.github.io/'
+baseURL = 'http://tanegcp.github.io/'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
-title = 'shota-aws'
+title = 'tanegcp'
 theme = 'PaperMod'
 
 [author]
-  name = "shota-aws"
+  name = "tanegcp"
   bio = "just developer."
   job = "engineer"
   location = "Nagoya"
 
 [params.profileMode]
 enabled = true
-title = "shota-awsのスペース"
+title = "tanegcpのスペース"
 subtitle = '学びや気づきを整理します'
 imageUrl =  "icon.jpg"
 
@@ -27,8 +27,8 @@ imageUrl =  "icon.jpg"
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
   socialIcons = [
-    { name = 'github', title = 'github', url = 'https://github.com/shota-aws/' },
-    { name = 'twitter', title = 'twitter', url = 'https://twitter.com/shota_aws'}
+    { name = 'github', title = 'github', url = 'https://github.com/tanegcp/' },
+    { name = 'twitter', title = 'twitter', url = 'https://twitter.com/tanegcp'}
   ]
 
 [[menu.main]]
