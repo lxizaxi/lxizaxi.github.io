@@ -1,7 +1,6 @@
 ### 【about `tanegcp`】
 
-- 名古屋でWebアプリ開発してます。
-- `AWS` や `Terraform` みたいなインフラ系技術が好きです。
+- `AWS` や `Google Cloud` を頑張りたいです。
 - AWS資格12冠を夢見てます。 
 
 ---

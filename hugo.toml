@@ -12,7 +12,7 @@ theme = 'PaperMod'
 
 [params.profileMode]
 enabled = true
-title = "tanegcpのスペース"
+title = "ぐっぴーのスペース"
 subtitle = '学びや気づきを整理します'
 imageUrl =  "icon.jpg"
 
