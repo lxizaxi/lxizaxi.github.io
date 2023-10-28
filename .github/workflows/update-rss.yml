@@ -1,9 +1,10 @@
 name: update rss json file
 
 on:
-  pull_request:
+  push:
     branches:
-      - main  # Set a branch name to trigger deployment
+      - main  # Set a branch to deploy
+  pull_request:
   schedule:
     - cron: '0 */12 * * *'
 
