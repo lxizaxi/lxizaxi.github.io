@@ -1,0 +1,17 @@
+<div class="archive-year">
+    <div class="archive-month">
+        <!-- data/Zenn.json の内容を読み込む -->
+        {{ $Zenn := $.Site.Data.Zenn }}
+        <div class="archive-posts">
+        <!-- 配列で格納されている記事情報を繰り返し処理で取得する -->
+        {{- range $Zenn.items }}
+        <div class="archive-entry" key="{{ .url }}">
+            <h3 class="archive-entry-title">{{ .title }}</h3>
+            <div class="archive-meta">{{ .date }} - {{ .content }}</div>
+            <a class="entry-link" aria-label="{{ .content }}" href="{{ .url }}" target=" _blank"
+            rel="noopener noreferrer"></a>
+        </div>
+        {{- end }}
+        </div>
+    </div>
+</div>

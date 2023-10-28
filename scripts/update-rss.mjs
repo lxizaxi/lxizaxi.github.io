@@ -7,8 +7,7 @@ const parser = new Parser();
 
 const rssFeed = {
     Zenn: {
-        rss_url: 'https://zenn.dev/suzuaws/feed',
-        profile_url: 'https://zenn.dev/suzuaws'
+        rss_url: 'https://zenn.dev/suzuaws/feed?all=1'
     }
 }
 
