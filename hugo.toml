@@ -32,11 +32,21 @@ imageUrl =  "icon.jpg"
 
 [[menu.main]]
   weight = 1
+  identifier = "tech"
+  name = "Tech"
+  url = "/tech"
+[[menu.main]]
+  weight = 2
   identifier = "blog"
   name = "Blog"
   url = "/blog"
 [[menu.main]]
-  weight = 2
+  weight = 3
   identifier = "aboutme"
   name = "About Me"
   url = "/aboutme"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
