@@ -1,19 +1,18 @@
-baseURL = 'http://tanegcp.github.io/'
+baseURL = 'http://suzuaws.github.io/'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
-title = 'tanegcp'
+title = 'suzuaws'
 theme = 'PaperMod'
 
 [author]
-  name = "tanegcp"
+  name = "suzuaws"
   bio = "just developer."
   job = "engineer"
   location = "Nagoya"
 
 [params.profileMode]
 enabled = true
-title = "ぐっぴーのスペース"
-subtitle = '学びや気づきを整理します'
+subtitle = '素敵な人生のため、学びや気づきを整理します'
 imageUrl =  "icon.jpg"
 
 [params]
@@ -27,8 +26,8 @@ imageUrl =  "icon.jpg"
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
   socialIcons = [
-    { name = 'github', title = 'github', url = 'https://github.com/tanegcp/' },
-    { name = 'twitter', title = 'twitter', url = 'https://twitter.com/tanegcp'}
+    { name = 'github', title = 'github', url = 'https://github.com/suzuaws/' },
+    { name = 'twitter', title = 'twitter', url = 'https://twitter.com/suzuaws'}
   ]
 
 [[menu.main]]
