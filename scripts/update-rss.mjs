@@ -1,7 +1,6 @@
 import { writeFileSync } from 'fs';
 
-import pkg from 'html-to-text';
-const { htmlToText } = pkg;
+import { htmlToText } from 'html-to-text';
 
 import Parser from 'rss-parser';
 const parser = new Parser();
@@ -37,6 +36,6 @@ try {
         */
         writeFileSync(`./data/${site}.json`, JSON.stringify(jsonFeed[site]));
     }
-} catch(err) {
+} catch (err) {
     console.error(err);
 }
