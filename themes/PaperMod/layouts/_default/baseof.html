@@ -17,6 +17,7 @@
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
+    {{- partialCached "zenn_rss_feed.html" -}}
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 

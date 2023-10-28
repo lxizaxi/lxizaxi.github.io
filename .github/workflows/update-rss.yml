@@ -1,0 +1,42 @@
+name: update rss json file
+
+on:
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+  schedule:
+    - cron: '0 */12 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Use Node.js 14.10.1
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.10.1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update RSS Feeds
+        run: npm run scripts/update-rss.mjs
+
+        # Git で追加する内容を data フォルダに変更する
+        # git add static/rss.json -> git add data/
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          STATUS=$(git status -s)
+          if [ -n "$STATUS" ]; then
+            git commit -m "Update data folder `date +'%Y-%m-%d %H:%M:%S'`" -a
+            git push origin main
+          fi
