@@ -1,7 +1,7 @@
-### 【about `tanegcp`】
+### 【about `suzuaws`】
 
-- `AWS` や `Google Cloud` を頑張りたいです。
-- AWS資格12冠を夢見てます。 
+- 資格勉強を通じてモチベーション上げてます。
+- 今は、AWS資格12冠を夢見てます。 
 
 ---
 
