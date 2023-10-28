@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "update-rss": "node ./scripts/update-rss.mjs"
+    }
+}

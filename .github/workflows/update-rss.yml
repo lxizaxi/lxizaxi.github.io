@@ -22,14 +22,11 @@ jobs:
         with:
           node-version: 14.10.1
 
-      - name: Init npm
-        run: npm init
-
       - name: Install dependencies
         run: npm install
 
       - name: Update RSS Feeds
-        run: npm run scripts/update-rss.mjs
+        run: npm run update-rss
 
         # Git で追加する内容を data フォルダに変更する
         # git add static/rss.json -> git add data/
