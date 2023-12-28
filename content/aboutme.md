@@ -1,11 +1,11 @@
-### 【about `えるえる`】
+### 【about `shota.suzuki`】
 
-- 物理とプログラミングが好き。
-- 今は、AWS資格12冠を目指して頑張ります。 
+- Now Intrest: Physics, Programming, AWS, IaC
+- Goal: Become Japan AWS All Certifications Engineers
 
 ---
 
-### 【AWS資格】
+### 【AWS Certifications】
 
 - [x] AWS Certified Cloud Practitioner
 - [x] AWS Certified Solutions Architect - Associate

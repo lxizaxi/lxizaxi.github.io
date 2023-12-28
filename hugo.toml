@@ -12,9 +12,9 @@ theme = 'PaperMod'
 
 [params.profileMode]
 enabled = true
-title = 'えるえる'
-subtitle = '素敵な人生のため、学びや気づきを整理します'
-imageUrl =  "l_icon.png"
+title = 'Welcome to shota.suzuki's home page'
+subtitle = 'Always Under Construction.'
+imageUrl =  "icon2.jpg"
 
 [params]
   sidebarBehavior = 2
