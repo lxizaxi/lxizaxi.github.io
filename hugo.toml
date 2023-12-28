@@ -12,7 +12,7 @@ theme = 'PaperMod'
 
 [params.profileMode]
 enabled = true
-title = 'Welcome to shota.suzuki's home page'
+title = "Welcome to shota.suzuki's home page"
 subtitle = 'Always Under Construction.'
 imageUrl =  "icon2.jpg"
 
