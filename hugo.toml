@@ -12,7 +12,7 @@ theme = 'PaperMod'
 
 [params.profileMode]
 enabled = true
-title = "Welcome to shota.suzuki's home page"
+title = "Welcome to my home page"
 subtitle = 'Always Under Construction.'
 imageUrl =  "icon2.jpg"
 
@@ -33,16 +33,11 @@ imageUrl =  "icon2.jpg"
 
 [[menu.main]]
   weight = 1
-  identifier = "tech"
-  name = "Tech"
-  url = "/tech"
-[[menu.main]]
-  weight = 2
   identifier = "blog"
   name = "Blog"
   url = "/blog"
 [[menu.main]]
-  weight = 3
+  weight = 2
   identifier = "aboutme"
   name = "About Me"
   url = "/aboutme"

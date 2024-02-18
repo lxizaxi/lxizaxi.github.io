@@ -1,6 +1,6 @@
 ### 【about `shota.suzuki`】
 
-- Now Intrest: Physics, Programming, AWS, IaC
+- Now Intrest: Physics, Programming, AWS, Google Cloud, DevOps, SRE
 - Goal: Become Japan AWS All Certifications Engineers
 
 ---
@@ -20,3 +20,18 @@
 - [x] AWS Certified Security – Specialty
 - [ ] AWS Certified: SAP on AWS - Specialty
 
+---
+
+### 【Google Cloud Certifications】
+
+- [ ] Cloud Digital Leader
+- [ ] Associate Cloud Engineer
+- [ ] Professional Cloud Architect
+- [ ] Professional Cloud Database Engineer
+- [ ] Professional Cloud Developer
+- [ ] Professional Data Engineer
+- [ ] Professional Cloud DevOps Engineer
+- [ ] Professional Cloud Security Engineer
+- [ ] Professional Cloud Network Engineer
+- [ ] Professional Google Workspace Administrator	GoogleWorkspace
+- [ ] Professional Machine Learning Engineer
