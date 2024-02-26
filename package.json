@@ -1,9 +1,0 @@
-{
-    "scripts": {
-        "update-rss": "node ./scripts/update-rss.mjs"
-    },
-    "dependencies": {
-        "html-to-text": "^9.0.5",
-        "rss-parser": "^3.13.0"
-    }
-}

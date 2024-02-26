@@ -1,7 +1,6 @@
-### 【about `shota.suzuki`】
+### 【about me】
 
-- Now Intrest: Physics, Programming, AWS, Google Cloud, DevOps, SRE
-- Goal: Become Japan AWS All Certifications Engineers
+- Now Intrest: Deno, Golang, AWS, Google Cloud, ...
 
 ---
 
