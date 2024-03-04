@@ -10,7 +10,7 @@
 - [x] AWS Certified Solutions Architect - Associate
 - [x] AWS Certified SysOps Administrator – Associate
 - [x] AWS Certified Developer - Associate
-- [ ] AWS Certified Solutions Architect - Professional
+- [x] AWS Certified Solutions Architect - Professional
 - [ ] AWS Certified DevOps Engineer - Professional
 - [ ] AWS Certified Advanced Networking - Specialty
 - [ ] AWS Certified Data Analytics – Specialty
