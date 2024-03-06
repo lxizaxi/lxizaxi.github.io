@@ -12,7 +12,7 @@ theme = 'PaperMod'
 
 [params.profileMode]
 enabled = true
-title = "Welcome to my home page"
+title = "Welcome"
 subtitle = 'Always Under Construction.'
 imageUrl =  "icon2.jpg"
 
