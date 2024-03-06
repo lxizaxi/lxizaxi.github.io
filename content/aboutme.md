@@ -1,6 +1,6 @@
 ### 【about me】
 
-- Now Intrest: Deno, Golang, AWS, Google Cloud, ...
+- Now Intrest: Python, Deno, Golang, AWS, Google Cloud, ...
 
 ---
 
