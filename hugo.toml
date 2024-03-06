@@ -27,8 +27,8 @@ imageUrl =  "icon2.jpg"
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
   socialIcons = [
-    { name = 'github', url = 'https://github.com/lxizaxi/' },
-    { name = 'x', url = 'https://x.com/lxizaxi'}
+    { name = 'github', title = 'GitHub', url = 'https://github.com/lxizaxi/' },
+    { name = 'x', title = 'x', url = 'https://x.com/lxizaxi'}
   ]
 
 [[menu.main]]
