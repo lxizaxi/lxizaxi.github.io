@@ -28,7 +28,7 @@ imageUrl =  "icon2.jpg"
   syntaxHighlighter = 'highlight.js'
   socialIcons = [
     { name = 'github', title = 'GitHub', url = 'https://github.com/lxizaxi/' },
-    { name = 'x', title = 'x', url = 'https://x.com/lxizaxi' }
+    { name = 'x-twitter', title = 'x', url = 'https://x.com/lxizaxi' }
   ]
 
 [[menu.main]]
