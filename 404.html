@@ -1,5 +1,5 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: https://lxizaxi.streamlit.app/
+redirect_to: https://lxizaxi.deno.dev/
 ---
