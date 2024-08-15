@@ -1,94 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- Google Materalize fonts -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Link Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 </head>
-
-<body>
-    <nav class="nav-extended">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Welcome!!</a>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md max-w-xs w-full text-center">
+        <!-- プロフィール画像 -->
+        <div class="mb-4">
+            <img src="images/icon.jpg" alt="プロフィール画像" class="w-24 h-24 rounded-full mx-auto">
         </div>
-    </nav>
-    
-    <ul id="tabs-swipe-demo" class="tabs">
-        <li class="tab col s3"><a href="#test-swipe-1">home</a></li>
-        <li class="tab col s3"><a href="#test-swipe-2">certifications</a></li>
-        <li class="tab col s3"><a href="#test-swipe-3">history</a></li>
-    </ul>
-    <h5></h5>
-    <div id="test-swipe-1" class="col s12">
-        <div class="row">
-            <div class="col s12 m7">
-            <div class="card">
-                <div class="card-image">
-                <img src="images/icon2.jpg">
-                <span class="card-title black-text">lxizaxi</span>
-                </div>
-                <div class="card-content">
-                    <p>NAME: Shota SUZUKI</p>
-                    <p>LOCATION: Nagoya in JAPAN</p>
-                    <p>NOW INTEREST: Python, AWS, Quantum Annealing</p>
-                </div>
-                <div class="card-action">
-                    <a href="https://github.com/lxizaxi"><img src="https://simpleicons.org/icons/github.svg" width="50"/></a>&ensp;
-                    <a href="https://twitter.com/lxizaxi"><img src="https://simpleicons.org/icons/x.svg" width="50"/></a>&ensp;
-                    <a href="https://zenn.dev/lxizaxi"><img src="https://simpleicons.org/icons/zenn.svg" width="50"/></a>
-                </div>
-            </div>
-            </div>
+        <!-- プロフィール名 -->
+        <h1 class="text-xl font-semibold mb-2">shota</h1>
+        <!-- プロフィール説明 -->
+        <p class="text-gray-600 text-sm">
+            ゆるふわITエンジニアです。<br>
+            最近は量子化学が気になります。
+        </p><br>
+        <!-- リンク集 -->
+        <div class="space-y-4">
+            <a href="https://github.com/lxizaxi" class="flex items-center justify-center w-full bg-gray-800 text-white py-2 rounded-lg">
+                <i class="fab fa-github mr-2"></i> GitHub
+            </a>
+            <a href="https://x.com/lxizaxi" class="flex items-center justify-center w-full bg-black text-white py-2 rounded-lg">
+                <i class="fab fa-x-twitter mr-2"></i> Twitter
+            </a>
+            <a href="https://zenn.dev/lxizaxi" class="flex items-center justify-center w-full bg-blue-500 text-white py-2 rounded-lg">
+                <i class="fas fa-book-open mr-2"></i> Zenn
+            </a>
         </div>
     </div>
-    <div id="test-swipe-2" class="col s12">
-        <div class="row">
-            <div class="col">
-              <div class="card-panel snow medium">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/IPA_logo.svg" width="30"/>&ensp;
-        情報処理推進機構（IPA）
-                <ul>
-                    <li>ITパスポート試験</li>
-                    <li>情報セキュリティマネジメント試験</li>
-                    <li>基本情報技術者試験</li>
-                    <li>応用情報技術者試験</li>
-                    <li>情報処理安全確保支援士</li>
-                </ul>
-              </div>
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col">
-              <div class="card-panel snow medium">
-                <img src="https://simpleicons.org/icons/amazonwebservices.svg" width="30"/>&ensp;
-        AWS Certifications
-                <ul>
-                    <li>AWS Certified Cloud Practitioner</li>
-                    <li>AWS Certified Solutions Architect - Associate</li>
-                    <li>AWS Certified SysOps Administrator - Associate</li>
-                    <li>AWS Certified Developer - Associate</li>
-                    <li>AWS Certified Solutions Architect - Professional</li>
-                    <li>AWS Certified Security - Specialty</li>
-                </ul>
-              </div>
-            </div>
-        </div>
-    </div>
-    <div id="test-swipe-3" class="col s12">
-        <div>
-            <img src="./images/construction.gif" width="30" />
-            Sorry. Under Construction.
-        </div>
-    </div>
-
-    
-
-    <footer class="page-footer">
-        <div class="footer-copyright">© 2022- shota.suz</div>
-    </footer>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.js"></script>
 </body>
+</html>
