@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shota</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 flex items-center justify-center pt-8">
-    <div class="bg-white p-8 rounded-lg shadow-md max-w-xs w-full text-center">
+<body class="bg-cover bg-center bg-no-repeat flex items-center justify-center pt-8" style="background-image: url('./images/hoshisora.jpg');">
+    <div class="bg-white bg-opacity-60 p-8 rounded-lg shadow-md max-w-xs w-full text-center">
         <!-- プロフィール画像 -->
         <div class="mb-4">
             <img src="images/icon.jpg" alt="プロフィール画像" class="w-24 h-24 rounded-full mx-auto">
@@ -16,9 +16,9 @@
         <!-- プロフィール名 -->
         <h1 class="text-xl font-semibold mb-2">shota</h1>
         <!-- プロフィール説明 -->
-        <p class="text-gray-600 text-sm">
+        <p class="text-gray-800 text-sm">
             ゆるふわITエンジニアです。<br>
-            最近は英語勉強中です。
+            登山 / 岩盤浴 / 英語学習
         </p><br>
         <!-- リンク集 -->
         <div class="space-y-4">
@@ -28,21 +28,12 @@
             <a href="https://x.com/lxizaxi" class="flex items-center justify-center w-full bg-black text-white py-2 rounded-lg">
                 <i class="fab fa-x-twitter mr-2"></i> Twitter
             </a>
-            <a href="https://zenn.dev/lxizaxi" class="flex items-center justify-center w-full bg-blue-500 text-white py-2 rounded-lg">
-                <i class="fas fa-book-open mr-2"></i> Zenn
+            <a href="https://zenn.dev/lxizaxi" class="bg-white flex items-center justify-center w-full text-black py-2 rounded-lg">
+                <img src="./images/zenn-color.svg" width="18"></img>&ensp;Zenn
             </a>
-            &ensp;
-        </div>
-        
-        <div class="space-y-4">
-            <div class="w-full bg-green-50 text-black py-2 rounded-lg text-sm">
-                <p class="text-left">~Profile~</p>
-                <ul class="text-left list-disc pl-5">
-                    <li>大学/大学院 物理専攻（物性理論）</li>
-                    <li>メーカー系SIer勤務</li>
-                    <li>Python / AWS / 量子コンピュータ</li>
-                </ul>
-            </div>
+            <a href="https://yamap.com/users/1625680" class="bg-white flex items-center justify-center w-full text-black py-2 rounded-lg">
+                <img src="./images/yamap_logo_color_triangle.svg" width="28"></img>&ensp;YAMAP
+            </a>
         </div>
     </div>
 </body>
