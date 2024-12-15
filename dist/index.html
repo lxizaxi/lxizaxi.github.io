@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center" style="background-image: url('https://picsum.photos/1080/1920?random');">
+<body class="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center bg-[url('https://picsum.photos/1920/1080?random')]">
     <div class="bg-gray-200 bg-opacity-90 p-8 rounded-lg shadow-md max-w-xs w-full text-center">
         <!-- プロフィール画像 -->
         <div class="mb-4">
@@ -21,10 +21,12 @@
         <p class="text-gray-800 text-sm mb-1">
             Just an engineer. <a href="#" class="underline" onclick="cv.showModal()">CV</a>
         </p>
+        <!-- スキルバッジ -->
         <div class="mb-4">
             <div class="badge badge-xs bg-blue-300">C</div>
             <div class="badge badge-xs bg-yellow-400 text-blue-700">Python</div>
             <div class="badge badge-xs bg-red-300 text-blue-700">Java</div>
+            <div class="badge badge-xs bg-red-500">Angular</div>
             <div class="badge badge-xs bg-orange-400">AWS</div>
             <div class="badge badge-xs bg-blue-400">Docker</div>
             <div class="badge badge-xs bg-red-400">Git</div>
@@ -53,15 +55,42 @@
       <form method="dialog">
         <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
       </form>
-      <h3 class="text-lg font-bold">Education</h3>
+      <h3 class="text-lg font-bold">Now Interest</h3>
+      <ul class="list-none">
+        <li class="flex items-center">
+          <i class="fas fa-caret-right mr-2"></i> Mathematical Optimization
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-caret-right mr-2"></i> Quantum Annealing
+        </li>
+      </ul>
+
+      <h3 class="text-lg font-bold mt-2 bg-center">---</h3>
+
+      <h3 class="text-lg font-bold mt-2">Education</h3>
       <p>[2015-2019] Bachelor of Science, Physics</p>
       <p>[2019-2021] Master of Science, Physics</p>
 
+      <h3 class="text-lg font-bold mt-2">Job History</h3>
+      <p>[2021-] Manufacturing System Integrater, Japan</p>
+
+      <h3 class="text-lg font-bold mt-2 bg-center">---</h3>
+
       <h3 class="text-lg font-bold mt-2">Qualification</h3>
-      <p>Information Security Specialist (<span class="bg-yellow-200">NOT REGISTERED</span>)</p>
-      <p>Information Security Management</p>
-      <p>AWS Certified Security - Specialty</p>
-      <p>AWS Certified Solutions Architect - Professional</p>
+      <ul class="list-none pl-1">
+        <li class="flex items-start">
+          <span class="mr-2 text-blue-500">✔</span> Information Security Specialist (<span class="bg-yellow-200">NOT REGISTERED</span>)
+        </li>
+        <li class="flex items-start">
+          <span class="mr-2 text-blue-500">✔</span> Information Security Management
+        </li>
+        <li class="flex items-start">
+          <span class="mr-2 text-blue-500">✔</span> AWS Certified Security - Specialty
+        </li>
+        <li class="flex items-start">
+            <span class="mr-2 text-blue-500">✔</span> AWS Certified Solutions Architect - Professional
+          </li>
+      </ul>
     </div>
 </dialog>
 </html>
