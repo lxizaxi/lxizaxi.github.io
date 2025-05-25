@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import SkillBadge from "@/components/SkillBadge";
+import SkillBadge from "../components/SkillBadge";
 
 const skills = [
   { name: "Python", iconSlug: "python" },
