@@ -20,7 +20,7 @@ export default function Home() {
     <div className="bg-gray-200 bg-opacity-90 p-8 rounded-lg shadow-md max-w-xs w-full text-center">
         {/* プロフィール画像 */}
         <div className="mb-4">
-        <Image src="https://avatars.githubusercontent.com/lxizaxi?v=4" alt="プロフィール画像" width={128} height={128} className="w-32 h-32 rounded-full mx-auto"/>
+        <Image src="https://avatars.githubusercontent.com/lxizaxi?v=4" alt="プロフィール画像" width={128} height={128} unoptimized className="w-32 h-32 rounded-full mx-auto"/>
         </div>
         {/* プロフィール名 */}
         <h1 className="text-xl font-semibold mb-2">shota</h1>
@@ -50,7 +50,7 @@ export default function Home() {
             <i className="fab fa-x-twitter text-2xl"/>
         </a>
         <a href="https://qiita.com/lxizaxi" target="_blank" rel="noopener noreferrer" className="bg-white flex items-center justify-center w-full text-black py-2 rounded-lg">
-            <Image src="https://cdn.simpleicons.org/qiita" alt="Qiita" width={35} height={35}/>
+            <Image src="https://cdn.simpleicons.org/qiita" alt="Qiita" width={35} height={35} unoptimized/>
         </a>
         <p className="flex items-center justify-center w-full py-2 rounded-lg"/>
         </div>
