@@ -36,6 +36,7 @@ export default function Home() {
             key={skill.name} // リストレンダリング時のキー
             name={skill.name}
             iconSrc={`https://cdn.simpleicons.org/${skill.iconSlug}`}
+            altText={skill.name}
             />
         ))}
         </div>
