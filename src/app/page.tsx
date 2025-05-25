@@ -30,7 +30,7 @@ export default function Home() {
         </p>
         
         {/* スキルバッジ */}
-        <div className="mb-4">
+        <div className="mb-4 flex flex-wrap justify-center items-center gap-x-1 gap-y-2">
         {skills.map((skill) => (
             <SkillBadge
             key={skill.name} // リストレンダリング時のキー
