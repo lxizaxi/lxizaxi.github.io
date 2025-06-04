@@ -12,6 +12,7 @@ const skills = [
   { name: "GitHub Actions", iconSlug: "githubactions" },
   { name: "Terraform", iconSlug: "terraform" },
   { name: "Qiskit", iconSlug: "qiskit" },
+  { name: "CUDA-Q", iconSlug: "nvidia" },
 ];
 
 
