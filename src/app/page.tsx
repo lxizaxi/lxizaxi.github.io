@@ -26,7 +26,7 @@ export default function Home() {
         <h1 className="text-xl font-semibold mb-2">shota</h1>
         {/* プロフィール説明 */}
         <p className="text-gray-500 text-sm mb-2 italic">
-        System Engineer
+        Quantum System Engineer
         </p>
         
         {/* スキルバッジ */}
