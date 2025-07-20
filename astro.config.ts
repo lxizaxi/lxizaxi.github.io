@@ -1,4 +1,3 @@
-import { loadEnv } from "vite";
 import { defineConfig } from 'astro/config';
 
 import expressiveCode from 'astro-expressive-code';
@@ -9,21 +8,9 @@ import spectre from './package/src';
 import node from '@astrojs/node';
 import { spectreDark } from './src/ec-theme';
 
-const {
-  GISCUS_REPO,
-  GISCUS_REPO_ID,
-  GISCUS_CATEGORY,
-  GISCUS_CATEGORY_ID,
-  GISCUS_MAPPING,
-  GISCUS_STRICT,
-  GISCUS_REACTIONS_ENABLED,
-  GISCUS_EMIT_METADATA,
-  GISCUS_LANG
-} = loadEnv(process.env.NODE_ENV!, process.cwd(), "");
-
 // https://astro.build/config
 const config = defineConfig({
-  site: 'https://spectre.louisescher.dev',
+  site: 'https://lxizaxi.github.io',
   output: 'static',
   integrations: [
     expressiveCode({
@@ -32,11 +19,11 @@ const config = defineConfig({
     mdx(),
     sitemap(),
     spectre({
-      name: 'Spectre',
+      name: 'shota',
       openGraph: {
         home: {
-          title: 'Spectre',
-          description: 'A minimalistic theme for Astro.'
+          title: "shota",
+          description: "simple shota's homepage."
         },
         blog: {
           title: 'Blog',

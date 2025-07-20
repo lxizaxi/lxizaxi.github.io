@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # プロジェクトに合わせてNode.jsのバージョンを調整してください (例: '16', '18', '20')
+          node-version: '24' # プロジェクトに合わせてNode.jsのバージョンを調整してください (例: '16', '18', '20')
           cache: 'npm' # npmのキャッシュを有効にします。yarnを使用している場合は 'yarn' に変更してください。
 
       - name: Install dependencies
@@ -28,11 +28,6 @@ jobs:
       - name: Build Next.js application
         run: npm run build # package.json内の 'build' スクリプトが 'next build && next export' を実行することを想定しています。
         # Next.jsの `export` コマンドは静的サイトを生成します。
-
-      - name: Rename output directory to dist
-        run: mv ./out ./dist # Next.jsの `export` はデフォルトで `./out` に出力されるため、`./dist` にリネームします。
-        # もし `next.config.js` の `distDir: 'dist'` 設定やビルドスクリプトの変更により、
-        # ビルド成果物が直接 `./dist` に出力される場合は、このステップを削除してください。
 
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
