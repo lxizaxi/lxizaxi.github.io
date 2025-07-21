@@ -12,6 +12,7 @@ import { spectreDark } from './src/ec-theme';
 const config = defineConfig({
   site: 'https://lxizaxi.github.io',
   base: '/lxizaxi.github.io/',
+  outDir: './docs',
   output: 'static',
   integrations: [
     expressiveCode({
