@@ -11,6 +11,7 @@ import { spectreDark } from './src/ec-theme';
 // https://astro.build/config
 const config = defineConfig({
   site: 'https://lxizaxi.github.io',
+  base: '/lxizaxi.github.io/',
   output: 'static',
   integrations: [
     expressiveCode({
