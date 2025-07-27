@@ -7,7 +7,7 @@ export const personalInfo = {
 
 export const workExperience = [
   {
-    company: "manufacturer-affiliated SIer",
+    company: "某SIer",
     location: "Japan",
     position: "System Engineer",
     period: "Apr 2021 - Present",
