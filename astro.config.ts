@@ -8,7 +8,6 @@ import spectre from './package/src';
 import node from '@astrojs/node';
 import { spectreDark } from './src/ec-theme';
 
-// https://astro.build/config
 const config = defineConfig({
   site: 'https://lxizaxi.github.io',
   integrations: [
