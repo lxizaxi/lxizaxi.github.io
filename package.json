@@ -1,32 +1,36 @@
 {
-  "name": "tender-telescope",
+  "name": "terrestrial-trappist",
   "type": "module",
-  "version": "1.0.2",
-  "packageManager": "pnpm@9.15.0",
+  "version": "0.0.1",
+  "description": "Modern portfolio template with animations and glassmorphism effects",
+  "author": "Rishikesh S",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rishikesh2003/my-portfolio"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "start": "node dist/server/entry.mjs",
     "preview": "astro preview",
-    "astro": "astro",
-    "postbuild": "pagefind --site dist/client"
+    "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.0",
-    "@astrojs/node": "^9.3.0",
-    "@astrojs/sitemap": "^3.4.1",
-    "@iconify-json/lucide": "^1.2.20",
-    "@iconify-json/simple-icons": "^1.2.18",
-    "@iconify/utils": "^2.2.1",
-    "@shikijs/themes": "^1.26.1",
-    "astro": "^5.11.0",
-    "astro-expressive-code": "^0.38.3",
-    "sharp": "^0.33.5"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "pagefind": "^1.3.0",
-    "shiki": "^1.26.1",
-    "vite": "^6.3.5"
+    "@astrojs/react": "^4.2.1",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tailwindcss/vite": "^4.0.14",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "aos": "^2.3.4",
+    "astro": "^5.5.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.5.0",
+    "lucide-react": "^0.483.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.14",
+    "tw-animate-css": "^1.2.4"
   }
 }
