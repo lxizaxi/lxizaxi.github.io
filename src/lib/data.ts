@@ -42,8 +42,7 @@ export const skills = {
     "CSS",
   ],
   backendDevelopment: ["FastAPI", "Flask"],
-  databaseAndStorage: ["PostgreSQL"],
-  cloudAndDevOps: ["AWS"],
+  cloudAndDevOps: ["AWS", "Docker", "Git", "GitHub Actions", "Terraform"],
 };
 
 export const projects = [
