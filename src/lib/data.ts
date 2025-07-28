@@ -8,12 +8,24 @@ export const personalInfo = {
 export const workExperience = [
   {
     company: "SIer",
-    location: "Nagoya",
+    location: "名古屋",
     position: "システムエンジニア",
-    period: "Apr 2021 - Present",
+    period: "2021/4 - Present",
     achievements: [
-      "IaCやインフラ自動化に強みがあります。",
-      "クラウドやコンテナ、Gitを活用したモダンアプリ開発の経験があります。",
+      "クラウドやコンテナ、Gitを活用したモダンアプリ開発が得意です。",
+      "特にIaCやインフラ自動化に強みがあります。",
+      "最近は量子コンピューティングリソースの環境周りに興味があります。",
+    ],
+  },
+ {
+    company: "大学/大学院 物理学専攻",
+    location: "日本",
+    position: "学生",
+    period: "2015/4 - 2021/3",
+    achievements: [
+      "6年間、物理学を学んでいました。",
+      "専攻は物性で、量子力学や統計力学を特に意欲的に学習しました。",
+      "研究テーマは、統計力学のシミュレーションにおけるアルゴリズム開発でした。",
     ],
   },
 ];
@@ -51,21 +63,6 @@ export const projects = [
     github: "https://github.com/rishikesh2003/Prodigi",
     description: [
       "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
-    ],
-  },
-  {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
-    description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
     ],
   },
 ];
@@ -77,47 +74,5 @@ export const awards = [
     date: "Sep 2022",
     type: "International",
     position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
   },
 ];
