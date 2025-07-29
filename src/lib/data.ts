@@ -28,17 +28,6 @@ export const workExperience = [
   },
 ];
 
-export const education = [
-  {
-    institution: "",
-    location: "",
-    degree: "",
-    period: "",
-    achievements: [
-      "",
-    ],
-  },
-];
 export const skills = {
   programmingLanguages: [
     "Python",
@@ -54,23 +43,3 @@ export const skills = {
   backendDevelopment: ["FastAPI", "Flask"],
   cloudAndDevOps: ["AWS", "Docker", "Git", "GitHub Actions", "Terraform"],
 };
-
-export const projects = [
-  {
-    title: "",
-    github: "",
-    description: [
-      "",
-    ],
-  },
-];
-
-export const awards = [
-  {
-    name: "",
-    issuer: "",
-    date: "",
-    type: "",
-    position: "",
-  },
-];

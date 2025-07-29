@@ -1,4 +1,3 @@
-import React from "react";
 import { skills } from "@/lib/data";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
