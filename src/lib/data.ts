@@ -11,9 +11,9 @@ export const workExperience = [
     position: "システムエンジニア",
     period: "2021/4 - Present",
     achievements: [
-      "クラウドやコンテナ、Gitを活用したモダンアプリ開発が得意です。",
-      "特にIaCやインフラ自動化に強みがあります。",
-      "最近は量子コンピューティングリソースの環境周りに興味があります。",
+      "クラウドやコンテナ、Gitを活用したモダンアプリ開発に知見があります。",
+      "特にDevOpsスキルをIaCやインフラ自動化に適用するところに強みがあります。",
+      "最近は量子コンピューティングリソースの環境周りに興味をもっています。",
     ],
   },
  {
@@ -23,17 +23,17 @@ export const workExperience = [
     achievements: [
       "6年間、物理学を学んでいました。",
       "専攻は物性で、量子力学や統計力学を特に意欲的に学習しました。",
-      "研究テーマは、統計力学のシミュレーションにおけるアルゴリズム開発でした。",
+      "統計力学のシミュレーション手法の改良を研究していました。",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "University",
-    location: "Japan",
-    degree: "Physics, Science",
-    period: "Apr 2015 - Mar 2021",
+    institution: "",
+    location: "",
+    degree: "",
+    period: "",
     achievements: [
       "",
     ],
@@ -57,20 +57,20 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "",
+    github: "",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
+      "",
     ],
   },
 ];
 
 export const awards = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
+    name: "",
+    issuer: "",
+    date: "",
+    type: "",
+    position: "",
   },
 ];
