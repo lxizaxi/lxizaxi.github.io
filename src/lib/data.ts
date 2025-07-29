@@ -23,7 +23,7 @@ export const workExperience = [
     achievements: [
       "6年間、物理学を学んでいました。",
       "専攻は物性で、量子力学や統計力学を特に意欲的に学習しました。",
-      "統計力学のシミュレーション手法の改良を研究していました。",
+      "統計力学のシミュレーション手法の改良をテーマに研究をしていました。",
     ],
   },
 ];
@@ -35,11 +35,11 @@ export const skills = {
     "JavaScript",
   ],
   frontendDevelopment: [
-    "Nextjs",
+    "Next.js",
     "Tailwind CSS",
-    "HTML",
+    "HTML5",
     "CSS",
   ],
   backendDevelopment: ["FastAPI", "Flask"],
-  cloudAndDevOps: ["AWS", "Docker", "Git", "GitHub Actions", "Terraform"],
+  cloudAndDevOps: ["Docker", "Git", "GitHub", "GitHub Actions", "Terraform"],
 };

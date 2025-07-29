@@ -17,7 +17,16 @@ function SkillTag({ skill, index }: { skill: string; index: number }) {
       whileHover={{ scale: 1.05, y: -2 }}
       className="px-3 py-1 bg-muted/80 backdrop-blur-sm rounded-md text-sm border border-purple-500/10 shadow-sm"
     >
-      {skill}
+      <p className="flex items-center gap-1.5">
+        <img
+          height="16"
+          width="16"
+          // NOTE: これでアイコンが動的になります。
+          // "Next.js" のように特殊文字を含むスキル名の場合は、URLスラッグの生成処理を調整する必要があるかもしれません (例: "next.js" -> "nextdotjs")。
+          src={`https://cdn.simpleicons.org/${skill.toLowerCase().replace(/ /g, "")}`}
+        />
+        {skill}
+      </p>
     </motion.div>
   );
 }
