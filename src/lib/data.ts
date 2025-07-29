@@ -7,8 +7,7 @@ export const personalInfo = {
 
 export const workExperience = [
   {
-    company: "SIer",
-    location: "名古屋",
+    company: "某IT子会社",
     position: "システムエンジニア",
     period: "2021/4 - Present",
     achievements: [
@@ -18,9 +17,8 @@ export const workExperience = [
     ],
   },
  {
-    company: "大学/大学院 物理学専攻",
-    location: "日本",
-    position: "学生",
+    company: "某地方国立大",
+    position: "大学生",
     period: "2015/4 - 2021/3",
     achievements: [
       "6年間、物理学を学んでいました。",
