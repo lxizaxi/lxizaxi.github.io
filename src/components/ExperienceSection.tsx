@@ -22,16 +22,15 @@ export default function ExperienceSection() {
             >
               💼
             </motion.span>{" "}
-            Work Experience
+            Experience
           </h2>
         </MotionWrapper>
         <div className="mb-8">
           {workExperience.map((job, index) => (
             <TimelineItem
               key={job.company + job.period}
-              title={`👨‍💻 ${job.position} | ${job.company}`}
-              subtitle={`🌍 ${job.location}`}
-              date={`📅 ${job.period}`}
+              title={`${job.position} | ${job.company}`}
+              date={`${job.period}`}
               isLast={index === workExperience.length - 1}
               index={index}
             >
